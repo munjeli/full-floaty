@@ -1,6 +1,6 @@
 (function( $ ){
 	
-$.fn.democraCule = function() {
+$.fn.floaty = function() {
 	
 	floatydiv();
 	
@@ -13,9 +13,10 @@ $.fn.democraCule = function() {
 			var topmargin = (pageheight/2) - 150;
 			$('#headspace').css('height', topmargin + 'px');
 			
-			var pagewidth = $(document).width();
+			/* option to code the horizontal center of the float
+			 var pagewidth = $(document).width();
 			var leftmargin = (pagewidth/2) - 260;
-			$('#floatydiv').css('margin-left', leftmargin + 'px');
+			$('#floatydiv').css('margin-left', leftmargin + 'px');*/
 		}
 	
 };
